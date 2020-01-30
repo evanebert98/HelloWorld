@@ -2,4 +2,4 @@ class HelloWorld
 
 
 
-constructor
+constructor(params) 

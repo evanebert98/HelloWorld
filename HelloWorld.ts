@@ -1,15 +1,20 @@
-class HelloWorld
+class HelloWorld{
 
+    firstName ='';
+    lastName: string
 
+    constructor(firstName: string, lastName: string){
+        this.firstName = firstName
+        this.lastName = lastName
+    }
 
-constructor(params) 
+    sayHello() {
+        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+    }
 
+}
 
-
-greet()
-    console.log(Evan Ebert)
-    
-
-ShowGreet()
+const myHelloClassInstance = new HelloWorld('Evan', 'Ebert');
+myHelloClassInstance.sayHello();
 
     
